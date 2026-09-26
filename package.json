@@ -1,0 +1,5 @@
+{
+  "name": "swing-dance-kobe",
+  "private": true,
+  "scripts": { "build": "node scripts/build.mjs", "dev": "node scripts/serve.mjs" }
+}

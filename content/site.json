@@ -1,0 +1,18 @@
+{
+  "contactEmail": "",
+  "events": [],
+  "gallery": [],
+  "schools": [],
+  "resources": [
+    {
+      "name": { "en": "Frankie Manning Foundation", "ja": "フランキー・マニング財団" },
+      "description": { "en": "Explore Lindy Hop history and the legacy of Frankie Manning.", "ja": "リンディホップの歴史と、フランキー・マニングが残した功績を知る。" },
+      "url": "https://www.frankiemanningfoundation.org/"
+    },
+    {
+      "name": { "en": "Ella Fitzgerald", "ja": "エラ・フィッツジェラルド" },
+      "description": { "en": "Discover her life and recordings on the official artist website.", "ja": "公式サイトで、その生涯やレコーディングの世界に触れる。" },
+      "url": "https://www.ellafitzgerald.com/"
+    }
+  ]
+}
