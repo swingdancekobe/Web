@@ -29,3 +29,50 @@ header{display:flex;flex-wrap:wrap;gap:0;margin:0 5%;padding:0 0 18px;border-bot
 .welcome-introduction .lead{font-size:1.0625rem;line-height:1.9;margin:0 0 22px}
 .welcome-introduction .lead:last-child{margin-bottom:0}
 @media(max-width:700px){.welcome-introduction{gap:35px;padding-bottom:35px}}
+
+/* After-hours jazz club: amber light, charcoal and dancing silhouettes. */
+:root{--paper:#171b1e;--ink:#f4e8d2;--rust:#e5ab6e;--line:#66533e;--muted:#c9baa6;--harbour:#111a20}
+body{position:relative;isolation:isolate;background:#171b1e;color:var(--ink);background-image:radial-gradient(ellipse at 9% 48%,rgba(177,99,42,.24),transparent 52%),radial-gradient(ellipse at 92% 70%,rgba(55,93,109,.25),transparent 50%)}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background-image:linear-gradient(90deg,#171b1e 3%,rgba(23,27,30,.4) 65%,rgba(23,27,30,.2)),url('assets/swing-dance.png');background-color:#4c483d;background-blend-mode:normal,multiply;background-size:cover;background-position:center;opacity:.28}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(9,13,16,.12),transparent 35%,rgba(9,13,16,.6))}
+.topline{color:#d8bd94;background:#0e1519;border-bottom:1px solid #493d30}
+header{border-bottom-color:#8b6c46}.masthead{color:#f4e8d2;background:#193d47;border-color:#ad895a;outline-color:#493d30}.masthead::after{background:linear-gradient(90deg,rgba(10,21,27,.15),rgba(10,21,27,.5) 40%,rgba(10,21,27,.5) 65%,rgba(10,21,27,.15))}
+nav a{color:#eadbc5}nav a:hover,nav a[aria-current]{color:#efbd7e}.language{color:#efdbbb;border-color:#9f7b4e;background:rgba(13,20,24,.65)}.language:hover{background:#322a21;color:#fff3de}
+.hero-art{background:#f3e5ca;border-color:#b48d5c;box-shadow:9px 9px 0 #0c1115,0 18px 55px rgba(0,0,0,.4)}
+.hero-art figcaption{color:#25261f;border-color:#5f5142}.hero-copy .lead{color:#e3d6c4}.welcome-introduction .hero-copy{text-shadow:0 2px 14px #101417}.text-link,main p a{color:#efbd7e}main p a:hover{color:#ffe7c2}.button{background:#ca8c4e;color:#101820}.button:hover{background:#e9b77c;color:#101820}
+.page-intro .lead,.directory>p,.connections p{color:#e3d6c4}.empty{background:rgba(13,19,23,.72);border-color:#8b6c46;box-shadow:0 18px 55px rgba(0,0,0,.18)}.empty p{color:#d2c2ae}.contact-card,.connections,.lessons,.directory,.story{border-color:#8b6c46}.listing{background:rgba(14,21,26,.35);padding:25px 20px}.listing h3 a{color:#efbd7e}footer{color:#e6d4b8;background:#0d1418;border-top:1px solid #5b4731}.footer-brand{color:#efbd7e}.skip{background:#f4eddc;color:#171b1e}
+@media(prefers-contrast:more){body{background:#171b1e}body::before,body::after{display:none}}
+.social-links{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.social-links a{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid #8b6c46;border-radius:50%;color:#efbd7e;text-decoration:none;transition:background-color .15s,color .15s}
+.social-links a:hover{background:#efbd7e;color:#101820}
+.social-links svg{width:22px;height:22px;fill:currentColor}
+.social-links .outline-icon{fill:none;stroke:currentColor;stroke-width:1.8}
+.social-links .icon-dot{fill:currentColor;stroke:none}
+@media(max-width:700px){.social-links{margin-top:20px}}
+
+.welcome-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px 24px;margin-bottom:25px}
+.welcome-introduction .welcome-heading h1{margin:0}
+.welcome-heading .social-links{margin:0}
+
+/* Social destinations stay available alongside the language switch. */
+.menu-actions{display:flex;align-items:center;gap:18px;flex-shrink:0}
+.menu-actions .social-links{gap:8px;margin:0}
+.menu-actions .social-links a{width:36px;height:36px}
+.menu-actions .social-links svg{width:18px;height:18px}
+.menu-actions .language{margin:0}
+header nav{min-width:0;flex:1 1 500px}
+@media(max-width:1050px){header nav{flex-basis:100%;padding:0 0 18px}.menu-actions{margin-left:auto}}
+@media(max-width:700px){.menu-actions{width:100%;margin:18px 0 0;justify-content:space-between}.menu-actions .social-links a{width:44px;height:44px}.menu-actions .language{margin:0}header nav{padding:0}}
+
+.lindy-introduction{display:grid;grid-template-columns:1fr 1.3fr;gap:45px;border-top:1px solid #8b6c46;padding:42px 0 60px}
+.lindy-introduction h2{font-family:'Barlow Condensed','Noto Sans JP',sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:700;margin:0;line-height:1.2}
+.lindy-introduction p{margin:0 0 18px;color:#e3d6c4;font-size:1.0625rem;line-height:1.9}
+.lindy-introduction p:last-child{margin-bottom:0}
+@media(max-width:700px){.lindy-introduction{grid-template-columns:1fr;gap:20px;padding:32px 0 40px}}
+
+.lindy-videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding:0 0 60px}
+.video-card{min-width:0}
+.video-card h3{font-family:Arial,'Noto Sans JP',sans-serif;font-size:1.0625rem;line-height:1.5;font-weight:600;margin:0 0 14px;color:#f4e8d2}
+.video-card iframe{display:block;width:100%;aspect-ratio:16/9;border:1px solid #8b6c46;background:#0d1418}
+.video-fallback{display:inline-block;margin-top:12px;font-size:.875rem;color:#efbd7e;text-underline-offset:4px}
+@media(max-width:800px){.lindy-videos{grid-template-columns:1fr;gap:32px;padding-bottom:40px}}
