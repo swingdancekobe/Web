@@ -23,3 +23,9 @@ header{display:flex;flex-wrap:wrap;gap:0;margin:0 5%;padding:0 0 18px;border-bot
 .japan-flag::after{content:"";width:14px;height:14px;border-radius:50%;background:#ba392e}
 .japan-lettering{font-family:'Noto Sans JP',sans-serif;letter-spacing:.14em;font-weight:800;border-left:1px solid rgba(255,243,215,.5);padding-left:12px}
 @media(max-width:700px){.harbour-kicker{gap:9px}.japan-flag{width:30px;height:20px}.japan-flag::after{width:12px;height:12px}.japan-lettering{padding-left:9px}}
+
+.welcome-introduction{align-items:center;gap:50px;padding-top:45px;padding-bottom:65px}
+.welcome-introduction h1{font-size:clamp(3rem,5vw,4.5rem);margin-bottom:25px}
+.welcome-introduction .lead{font-size:1.0625rem;line-height:1.9;margin:0 0 22px}
+.welcome-introduction .lead:last-child{margin-bottom:0}
+@media(max-width:700px){.welcome-introduction{gap:35px;padding-bottom:35px}}
