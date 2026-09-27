@@ -5,6 +5,18 @@
   const element=(tag,text,cls)=>{const el=document.createElement(tag);if(text)el.textContent=text;if(cls)el.className=cls;return el;};
   const anchor=(url,text,cls)=>{const a=element('a',text,cls);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;};
   function render(data) {
+    const feature=document.querySelector('#featured-video');
+    const v=data.featured;
+    if(feature && v && /^[\w-]{11}$/.test(v.id)) {
+      feature.querySelector('h2').textContent=v.title;
+      const date=feature.querySelector('time');date.dateTime=v.publishedAt;
+      date.textContent=new Date(v.publishedAt).toLocaleDateString(root.dataset.lang==='ja'?'ja-JP':'en-GB',{year:'numeric',month:'long',day:'numeric',timeZone:'Asia/Tokyo'});
+      const frame=feature.querySelector('iframe');
+      const src=`https://www.youtube-nocookie.com/embed/${v.id}`;
+      if(frame.src!==src)frame.src=src;
+      frame.title=v.title;
+      feature.querySelector('a').href=`https://www.youtube.com/watch?v=${v.id}`;
+    }
     const fragment=document.createDocumentFragment();
     for(const p of data.playlists) {
       if(!/^[\w-]+$/.test(p.id))continue;

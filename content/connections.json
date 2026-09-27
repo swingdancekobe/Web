@@ -1,26 +1,120 @@
 {
   "history": [
-    {"name":"Savoy Style","en":"Archives of early Lindy Hop.","ja":"初期のリンディホップを紹介するアーカイブ。","url":"https://www.savoystyle.com/"},
-    {"name":"Frankie Manning","en":"The ambassador of Lindy Hop.","ja":"リンディホップのアンバサダー、フランキー・マニング。","url":"https://www.frankiemanning.com/"}
+    {
+      "name": "Savoy Style",
+      "en": "Archives of early Lindy Hop.",
+      "ja": "初期のリンディホップを紹介するアーカイブ。",
+      "url": "https://www.savoystyle.com/"
+    },
+    {
+      "name": "Frankie Manning",
+      "en": "The ambassador of Lindy Hop.",
+      "ja": "リンディホップのアンバサダー、フランキー・マニング。",
+      "url": "https://www.frankiemanning.com/"
+    }
   ],
   "communities": [
-    {"name":"Swing Dance Kobe","en":"Kobe","ja":"神戸","website":"welcome.html","facebook":"https://www.facebook.com/groups/1112888595513671/"},
-    {"name":"Mechakucha Swing","en":"Osaka","ja":"大阪","website":"https://mechakuchaswing.com/","facebook":"https://www.facebook.com/groups/24834813042"},
-    {"name":"Dancing Bus","en":"Tokyo","ja":"東京","website":"https://dancingbus.com/","facebook":"https://www.facebook.com/groups/56367058784"},
-    {"name":"Tokyo Swing Dance Society","en":"Tokyo","ja":"東京","website":"http://www.impetus.ne.jp/","facebook":"https://www.facebook.com/groups/TokyoSwingDanceSociety/"},
-    {"name":"Tokyo Lindy Hop Academy","en":"Tokyo","ja":"東京","facebook":"https://www.facebook.com/tokyolindyhopacademy/"},
-    {"name":"Swing Gigolo","website":"https://swing-jack.com/index.html","facebook":"https://www.facebook.com/Swing-Gigolo-236639686422537/"},
-    {"name":"We Got Rhythm","en":"Nagoya","ja":"名古屋","website":"https://swingin.nagoya/","facebook":"https://www.facebook.com/groups/wegotrhythm/"},
-    {"name":"Sendai Swing Club","en":"Sendai","ja":"仙台","facebook":"https://www.facebook.com/groups/160791833988109"},
-    {"name":"Swing Dance Fukuoka","en":"Fukuoka","ja":"福岡","website":"https://www.swingdancefukuoka.com/"},
-    {"name":"Lindy Hop in Fukuoka","en":"Fukuoka","ja":"福岡","website":"https://ameblo.jp/lindyhopinfukuoka/"}
+    {
+      "name": "Swing Dance Kobe",
+      "en": "Kobe",
+      "ja": "神戸",
+      "website": "welcome.html",
+      "facebook": "https://www.facebook.com/groups/1112888595513671/"
+    },
+    {
+      "name": "Mechakucha Swing",
+      "en": "Osaka",
+      "ja": "大阪",
+      "website": "https://mechakuchaswing.com/",
+      "facebook": "https://www.facebook.com/groups/24834813042"
+    },
+    {
+      "name": "Dancing Bus",
+      "en": "Tokyo",
+      "ja": "東京",
+      "website": "https://dancingbus.com/",
+      "facebook": "https://www.facebook.com/groups/56367058784"
+    },
+    {
+      "name": "Tokyo Swing Dance Society",
+      "en": "Tokyo",
+      "ja": "東京",
+      "website": "http://www.impetus.ne.jp/",
+      "facebook": "https://www.facebook.com/groups/TokyoSwingDanceSociety/"
+    },
+    {
+      "name": "Tokyo Lindy Hop Academy",
+      "en": "Tokyo",
+      "ja": "東京",
+      "facebook": "https://www.facebook.com/tokyolindyhopacademy/"
+    },
+    {
+      "name": "Swing Gigolo",
+      "website": "https://swing-jack.com/index.html",
+      "facebook": "https://www.facebook.com/Swing-Gigolo-236639686422537/"
+    },
+    {
+      "name": "We Got Rhythm",
+      "en": "Nagoya",
+      "ja": "名古屋",
+      "website": "https://swingin.nagoya/",
+      "facebook": "https://www.facebook.com/groups/wegotrhythm/"
+    },
+    {
+      "name": "Sendai Swing Club",
+      "en": "Sendai",
+      "ja": "仙台",
+      "facebook": "https://www.facebook.com/groups/160791833988109"
+    },
+    {
+      "name": "Swing Dance Fukuoka",
+      "en": "Fukuoka",
+      "ja": "福岡",
+      "website": "https://www.swingdancefukuoka.com/"
+    },
+    {
+      "name": "Lindy Hop in Fukuoka",
+      "en": "Fukuoka",
+      "ja": "福岡",
+      "website": "https://ameblo.jp/lindyhopinfukuoka/"
+    }
   ],
   "films": [
-    {"name":"Swing Kids","year":1993,"url":"https://www.imdb.com/title/tt0108265/"},
-    {"name":"Swing Girls","year":2004,"url":"https://www.imdb.com/title/tt0435434/"},
-    {"name":"The Savoy King","year":2012,"url":"https://www.imdb.com/title/tt1674783/"},
-    {"name":"Stompin’ at the Savoy","year":1992,"url":"https://www.imdb.com/title/tt0105475/"},
-    {"name":"Hellzapoppin’","year":1941,"url":"https://www.imdb.com/title/tt0033704/"},
-    {"name":"A Day at the Races","year":1937,"url":"https://www.imdb.com/title/tt0028772/"}
+    {
+      "name": "Swing Kids",
+      "year": 1993,
+      "url": "https://www.imdb.com/title/tt0108265/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2VmNDgxM2MtMGU4MC00MWI1LWE4ODEtMTY4ODk1YTA2ODFjXkEyXkFqcGc@._V1_UX160_.jpg"
+    },
+    {
+      "name": "Swing Girls",
+      "year": 2004,
+      "url": "https://www.imdb.com/title/tt0435434/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzVlM2Q1ZTItN2ViMS00YjUxLTkzYTEtYTIxYjdjM2Y0YzYxXkEyXkFqcGc@._V1_UX160_.jpg"
+    },
+    {
+      "name": "The Savoy King",
+      "year": 2012,
+      "url": "https://www.imdb.com/title/tt1674783/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2VmMjcwYWYtODExNi00ZjI3LTg5ZmYtMWQyNGVmMWVkNjA1XkEyXkFqcGc@._V1_UX160_.jpg"
+    },
+    {
+      "name": "Stompin’ at the Savoy",
+      "year": 1992,
+      "url": "https://www.imdb.com/title/tt0105475/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmMzM2FmMTUtNjIyOS00ODFjLTgwNTktNWY2MDI4MDRlNDI1XkEyXkFqcGc@._V1_UX160_.jpg"
+    },
+    {
+      "name": "Hellzapoppin’",
+      "year": 1941,
+      "url": "https://www.imdb.com/title/tt0033704/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmRjZWZjYTQtOWI0MC00OGUxLTgzZmItYzkwYzdjNjA0OTczXkEyXkFqcGc@._V1_UX160_.jpg"
+    },
+    {
+      "name": "A Day at the Races",
+      "year": 1937,
+      "url": "https://www.imdb.com/title/tt0028772/",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkxMzVhNDktOGJhOS00YjEyLThlNjctYjIwODQ1M2UyNzNiXkEyXkFqcGc@._V1_UX160_.jpg"
+    }
   ]
 }

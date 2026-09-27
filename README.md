@@ -66,3 +66,6 @@ This uses public YouTube page metadata without an API key. YouTube page-format c
 **Hosting:** the automatic refresh runs in `scripts/serve.mjs`, not in static HTML. Deploying only `dist` preserves the saved videos but will not update them by itself. Production hosting needs this refresh process (or a scheduled `npm run sync:playlists` followed by build/deploy). A direct `file://` opening does not run updates and YouTube embeds may fail there; use the local HTTP preview.
 
 Requires Node.js with `--use-system-ca` support (the current installed Node 24 supports it). No packages or credentials are required.
+
+The main chapter features the latest public video from the channel uploads playlist, including uploads outside the four curated playlists. It refreshes alongside the playlist snapshot; static hosting still requires sync and redeployment.
+

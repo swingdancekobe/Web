@@ -157,3 +157,5 @@ portfolio.allVideos,View Full Playlist,プレイリストをすべて見る
 portfolio.stale,Showing saved videos. Visit the full playlists for the latest updates.,保存済みの動画を表示しています。最新情報は各プレイリストをご覧ください。
 portfolio.unavailable,Videos are temporarily unavailable. Visit our YouTube channel using the icon above.,現在、動画を読み込めません。上のYouTubeアイコンからチャンネルをご覧ください。
 portfolio.embedUnavailable,This video cannot play here. Try watching it on YouTube.,この動画はここでは再生できません。YouTubeでご覧ください。
+
+portfolio.featured,Latest From Our Channel,チャンネルの最新動画

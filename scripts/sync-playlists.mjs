@@ -88,7 +88,11 @@ export function syncPlaylists() {
       playlists.push({...definition,videos});
     }
     playlists.sort((a,b)=>Date.parse(b.videos[0].publishedAt)-Date.parse(a.videos[0].publishedAt));
-    const snapshot = {updatedAt:new Date().toISOString(),playlists};
+    // The channel's uploads playlist includes videos outside the curated playlists.
+    const uploads = await playlistVideos('UUJ_ZqMee4em5JMvqMbEd4LQ');
+    const featured = uploads[0];
+    featured.publishedAt = dates.get(featured.id) || await publicationDate(featured.id);
+    const snapshot = {updatedAt:new Date().toISOString(),featured,playlists};
     // Replace the saved snapshot only after every playlist has succeeded.
     fs.writeFileSync(snapshotPath+'.tmp',JSON.stringify(snapshot,null,2)+'\n');
     fs.renameSync(snapshotPath+'.tmp',snapshotPath);

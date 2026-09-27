@@ -122,3 +122,10 @@ html[lang=en] h1,html[lang=en] h2,html[lang=en] h3,html[lang=en] title{text-tran
 
 .playlist-grid iframe{min-height:200px}.video-unavailable{min-height:200px;aspect-ratio:16/9;margin-top:auto;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:#141719;border:1px solid #8b6c46;color:#e3d6c4;box-sizing:border-box}
 
+
+.featured-video{margin-top:36px;max-width:960px}.featured-label{font-size:.85rem;letter-spacing:.1em;color:#efbd7e;font-weight:700}.featured-video h2{font-size:clamp(1.5rem,3vw,2.3rem);margin:10px 0}.featured-video time{display:block;color:#c9baa6;margin-bottom:18px;font-size:.9rem}.featured-video iframe{display:block;width:100%;aspect-ratio:16/9;min-height:200px;border:1px solid #8b6c46;background:#101416}
+
+/* Compact channel feature and IMDb movie posters. */
+.portfolio-intro{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}.portfolio-intro-copy{grid-column:span 2}.portfolio-intro .featured-video{margin:0;max-width:none;min-width:0}.portfolio-intro .featured-video h2{font-family:Arial,'Noto Sans JP',sans-serif;font-size:1rem;line-height:1.5}.portfolio-intro .featured-label{margin:0 0 10px}.portfolio-intro .featured-video time{font-size:.875rem;margin-bottom:14px}.film-title{display:flex;align-items:center;gap:20px}.film-title>a{flex:0 0 80px}.film-poster{display:block;width:80px;height:120px;object-fit:contain;background:#101416}.film-table th:nth-child(2){width:60%}
+@media(max-width:1000px){.portfolio-intro{grid-template-columns:repeat(2,minmax(0,1fr))}.portfolio-intro-copy{grid-column:auto}.portfolio-intro h1{font-size:clamp(2.5rem,5vw,4rem)}}
+@media(max-width:650px){.portfolio-intro{grid-template-columns:1fr;gap:28px}.film-title{align-items:flex-start;flex-direction:column;gap:10px}.film-title>a{flex-basis:auto}.film-table th:nth-child(2){width:55%}.film-table th:first-child{width:20%}}
