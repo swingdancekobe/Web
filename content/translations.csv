@@ -5,7 +5,7 @@ nav.events,Events,イベント
 nav.portfolio,On the Dance Floor,ダンスフロアから
 nav.learn,Where to Learn,ダンスを習う
 nav.links,Swing Connections,スウィングの輪
-nav.contact,Contact Us,お問い合わせ
+nav.contact,About Us,私たちについて
 common.city,KOBE · JAPAN,神戸 · 日本
 common.since,A little rhythm. A lot of joy.,リズムに乗って、笑顔いっぱい。
 common.explore,Find your next dance,次のダンスを見つけよう
@@ -59,14 +59,72 @@ contact.emailLabel,Send us an email,メールで問い合わせる
 art.alt,Vintage-style illustration of a couple swing dancing,スウィングダンスを踊る二人のヴィンテージ風イラスト
 
 common.harbour,Japan Swings,日本がスウィング
-common.harbourNote,it don't mean a thing if it aint got that swing,スウィングしなけりゃ意味がない
+common.harbourNote,"It Don't Mean A Thing, If It Ain't Got That Swing",スウィングしなけりゃ意味がない
 welcome.introductionOne,"Swing Dance Kobe is all about spreading the fun of Swing Dancing, in the Kobe area here in Japan. We act in the spirit of Frankie Manning to make this dance available to as many people as possible. Why, because it brings so much fun in your life! Be part of our community.",Swing Dance Kobeは、ここ日本の神戸エリアでスウィングダンスの楽しさを広めることを大切にしています。フランキー・マニングの精神を受け継ぎ、一人でも多くの人にこのダンスを楽しんでもらえるよう活動しています。なぜかって？人生がとても楽しくなるからです！ぜひ私たちのコミュニティに加わってください。
 welcome.introductionTwo,"We organise social events, participate in festivals and also provide dance lessons. We all help each other out. We embrace the craziness of swing. We encourage people to be different. Dancing makes us happy, this is scientifically proven",私たちはソーシャルイベントの開催やフェスティバルへの参加、ダンスレッスンの提供を行っています。みんなで助け合い、スウィングの自由でちょっとクレイジーな楽しさを大切にしています。一人ひとりが自分らしくいることを応援しています。ダンスは私たちを幸せにしてくれます。それは科学的にも証明されています！
 welcome.lindyTitle,What is Lindy Hop,リンディホップとは？
-welcome.lindyText,"Lindy Hop is a joyful partner dance born in Harlem’s Black communities in the late 1920s and made popular during the swing era. Danced to swinging jazz, it combines rhythmic footwork, playful improvisation and a connection between partners. You don’t need the spectacular acrobatics seen in old films — just a few basic steps, a little curiosity and a love of music to start enjoying the dance.",リンディホップは、1920年代後半にハーレムの黒人コミュニティで生まれ、スウィング時代に広まった、喜びあふれるパートナーダンスです。スウィングするジャズに合わせて、リズミカルなステップや自由なアドリブ、パートナーとのつながりを楽しみます。昔の映画のような華やかなアクロバットは必要ありません。いくつかの基本ステップと、少しの好奇心、音楽を楽しむ気持ちがあれば始められます。
+welcome.lindyText,"Lindy Hop is a joyful partner swing dance born in Harlem’s Black communities in the late 1920s and made popular during the swing era. Danced to swinging jazz, it combines rhythmic footwork, playful improvisation and a connection between partners. You don’t need the spectacular acrobatics seen in old films — just a few basic steps, a little curiosity and a love of music to start enjoying the dance.",リンディホップは、1920年代後半にハーレムの黒人コミュニティで生まれ、スウィング時代に広まった、喜びあふれるパートナーダンスです。スウィングするジャズに合わせて、リズミカルなステップや自由なアドリブ、パートナーとのつながりを楽しみます。昔の映画のような華やかなアクロバットは必要ありません。いくつかの基本ステップと、少しの好奇心、音楽を楽しむ気持ちがあれば始められます。
 welcome.lindyLink,Check out our links page for more info.,詳しくは「スウィングの輪」のページをご覧ください。
 welcome.videosLabel,Lindy Hop videos,リンディホップの動画
 welcome.videoOrigins,How it all started,すべての始まり
 welcome.videoMovies,In the movies,映画の中のリンディホップ
 welcome.videoSocial,My favorite social video,お気に入りのソーシャルダンス動画
 welcome.watchYouTube,Watch on YouTube,YouTubeで見る
+
+common.emailLabel,Email Swing Dance Kobe,Swing Dance Kobeにメールする
+festival.title,Kobe Jazz Street Festival 2026,神戸ジャズストリート2026
+festival.dates,10 & 11 October 2026,2026年10月10日・11日
+festival.eyebrow,A BIG YEAR FOR SWING DANCE KOBE,Swing Dance Kobeにとって大切な年
+festival.call,Help us fill the dance floor.,一緒にダンスフロアを盛り上げよう。
+festival.intro,"For the first time, Kobe Jazz Street Festival is giving us a dedicated venue for dancers. Let’s show that music and dance belong together! Bring your friends — dancers and non-dancers alike — and help make this an unforgettable year for Swing Dance Kobe.",今年初めて、神戸ジャズストリートにダンサーのための専用会場が設けられます。音楽とダンスは一緒に楽しむものだと、みんなで伝えましょう！踊る方も踊らない方も、ぜひ友達を誘ってご参加ください。Swing Dance Kobeにとって忘れられない一年にしましょう。
+festival.lessonsTitle,Free mini dance lessons,無料ミニダンスレッスン
+festival.lessons,Roger (Switzerland) & Lucy (Japan) will teach free mini lessons during every band break. A perfect chance for beginners to try swing dancing.,各バンドの演奏の合間に、Roger（スイス）＆Lucy（日本）が無料ミニレッスンを行います。スウィングダンスが初めての方も、気軽に体験できます。
+festival.official,Official festival website,フェスティバル公式サイト
+festival.tickets,Tickets,チケット
+festival.presale,Advance tickets · before 7 October,前売券 · 10月7日より前に
+festival.discount,Contact Swing Dance Kobe about dancer discount tickets.,ダンサー割引チケットについてはSwing Dance Kobeへお問い合わせください。
+festival.pass,Pass,券種
+festival.advance,Advance,前売
+festival.door,On the day,当日
+festival.one,One day,1日券
+festival.two,Two days,両日券
+festival.value,Best value,おすすめ
+festival.sales,On-the-day tickets are sold at Sankita Plaza and the main office.,当日券はサンキタ広場と本部で販売されます。
+festival.agenda,Dancers’ agenda,ダンサーズ・スケジュール
+festival.zone,All dates are in October 2026. All times are Japan Standard Time (JST).,日程はすべて2026年10月、時刻は日本時間（JST）です。
+festival.date,Date,日付
+festival.time,Time,時間
+festival.event,Event,イベント
+festival.venue,Venue,会場
+festival.map,View map,地図を見る
+festival.oct3,Saturday · 3 October,10月3日（土）
+festival.oct9,Friday · 9 October,10月9日（金）
+festival.oct10,Saturday · 10 October,10月10日（土）
+festival.oct11,Sunday · 11 October,10月11日（日）
+festival.warmup,Kobe Jazz Promotion Event: Live band & dance lesson,神戸ジャズ・プロモーションイベント：ライブ演奏＆ダンスレッスン
+festival.warmupText,Free event! Warm up for the jazz festival and help spread the word.,無料イベント！ジャズフェスティバルに向けて、一緒に踊って盛り上げましょう。
+festival.park,Lindy in the Park,Lindy in the Park
+festival.parkText,Parade dance practice and social dancing under the stars.,パレードのダンス練習と、星空の下でのソーシャルダンス。
+festival.parade,Traditional Street Parade,恒例のストリートパレード
+festival.paradeText,Sailor theme for the dancers — come dressed for the occasion!,ダンサーのテーマはセーラー！テーマに合わせた服装で参加しましょう。
+festival.platz,Sannomiya Platz,三宮プラッツ
+festival.garden,Higashi-Yuenchi,東遊園地
+festival.station,Mountain side of Hankyu Kobe Sannomiya Station,阪急神戸三宮駅の山側
+festival.nosta,Kitano Nosta,神戸北野ノスタ
+festival.live,Swing dancing with live bands,生演奏でスウィングダンス
+festival.liveText,Live jazz and free mini dance lessons with Roger (Switzerland) & Lucy (Japan) during every band break.,ライブジャズと、各演奏の合間のRoger（スイス）＆Lucy（日本）による無料ミニダンスレッスン。
+festival.bands,Band timetables,バンド・タイムテーブル
+festival.performer,Band / musicians,バンド・出演者
+festival.sat1,Sayaka & fellow musician,Sayaka & fellow musician
+festival.soul,Soul I Jazz Band,Soul I Jazz Band
+festival.sat3,Eiji Hanaoka Family & Takeshi Gotoh,Eiji Hanaoka Family & Takeshi Gotoh
+festival.clap,Clap Stomp Swingin’,Clap Stomp Swingin’
+festival.sat5,"Yuko Mita, Takeshi Goto, and Ken Kawase trio","Yuko Mita, Takeshi Goto, and Ken Kawase trio"
+festival.sun1,"Yuko Mita, Sei Nakayama, Takeshi Goto, and Ken Kawase Trio","Yuko Mita, Sei Nakayama, Takeshi Goto, and Ken Kawase Trio"
+festival.sun5,Hanaoka Eiji Septet,Hanaoka Eiji Septet
+festival.updates,Stay in the loop,最新情報をチェック
+festival.updatesText,For the latest event updates follow Swing Dance Kobe on Facebook and Instagram.,イベントの最新情報はSwing Dance KobeのFacebookとInstagramでご確認ください。
+festival.oct2,Friday · 2 October,10月2日（金）
+festival.buy,Buy tickets here,チケットの購入はこちら
+festival.parkSocialText,Social dancing under the stars.,星空の下でのソーシャルダンス。
+
