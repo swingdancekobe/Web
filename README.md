@@ -54,3 +54,15 @@ All navigation is ordinary HTML and works without JavaScript. The language switc
 `dist/assets/kobe-harbour.png` was created with the built-in image generation tool. Prompt: "Use case: illustration-story. Create a wide panoramic Kobe Japan harbour illustration for a vintage swing dance website masthead. 3:1 landscape composition. 1930s/1940s travel-poster linocut print STYLE showing modern recognizable Kobe waterfront: red hourglass lattice Kobe Port Tower on the right, white sail-shaped Kobe Maritime Museum roof nearby, distant Rokko mountain ridge, harbour water foreground with spare horizontal engraved ripples. Restrained deep navy #193d47 ink, warm ivory #f4eddc and burnt orange #a43c24. Landmarks concentrated in rightmost third and leftmost edge; centre upper two-thirds quiet dark navy negative space for separate HTML heading overlay. Flat print texture, sophisticated minimal editorial engraving, no text, no lettering, no border, no logos. This is stylized contemporary Kobe scenery, not a historical reconstruction."
 
 The banner lettering is editable HTML. Its supporting English and Japanese labels are in the translation table under `common.harbour` and `common.harbourNote`.
+
+## YouTube playlist sections
+
+On the Dance Floor shows up to six videos from each of the four playlists in `content/playlists.json`. Videos are sorted by their YouTube publication date, not playlist position or the date they were added. Sections are sorted by their newest video's publication date. Video titles remain as supplied by YouTube; chapter labels and interface text have English/Japanese versions.
+
+Run `npm run dev` for automatic refresh every 15 minutes while the server is running. Reload the page to see new results; playing videos are not interrupted. `npm run sync:playlists` refreshes immediately, and `npm run build` embeds the saved snapshot into the HTML. All four playlists are fetched before replacing the saved snapshot, so a failed fetch retains the last complete result.
+
+This uses public YouTube page metadata without an API key. YouTube page-format changes or request blocking can interrupt refresh; the page then keeps saved videos and shows a notice. Configure a YouTube Data API integration if a production host requires a supported API contract. The pagination reader handles up to 31 pages per playlist and fails safely beyond that limit.
+
+**Hosting:** the automatic refresh runs in `scripts/serve.mjs`, not in static HTML. Deploying only `dist` preserves the saved videos but will not update them by itself. Production hosting needs this refresh process (or a scheduled `npm run sync:playlists` followed by build/deploy). A direct `file://` opening does not run updates and YouTube embeds may fail there; use the local HTTP preview.
+
+Requires Node.js with `--use-system-ca` support (the current installed Node 24 supports it). No packages or credentials are required.

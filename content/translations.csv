@@ -44,7 +44,7 @@ learn.third,Try listening to Count Basie or Ella Fitzgerald. Notice the pulse an
 learn.directoryTitle,Local classes,近くのクラス
 learn.directory,Confirmed school and class recommendations will be added here. Please check each school’s own information before attending.,確認済みのスクールやクラスを順次ご紹介します。参加前に、各スクールの最新情報をご確認ください。
 links.eyebrow,FOLLOW THE RHYTHM,リズムのその先へ
-links.title,A world of swing.,広がるスウィングの世界。
+links.title,"The World Of Lindy Hop, the Swing Dance we love",私たちが愛するスウィングダンス、リンディホップの世界
 links.intro,Keep learning beyond the dance floor — through history and music and the wider dance community.,歴史や音楽、そしてダンスコミュニティを通して。フロアの外でも学びを深めましょう。
 links.historyTitle,Roots & stories,ルーツと物語
 links.history,Discover the people and history behind Lindy Hop.,リンディホップを育んだ人々と、その歴史に触れよう。
@@ -128,3 +128,32 @@ festival.oct2,Friday · 2 October,10月2日（金）
 festival.buy,Buy tickets here,チケットの購入はこちら
 festival.parkSocialText,Social dancing under the stars.,星空の下でのソーシャルダンス。
 
+about.eyebrow,THE PEOPLE BEHIND THE DANCE,ダンスを支える仲間たち
+about.title,About Us,私たちについて
+about.intro,"Swing Dance Kobe is an inclusive community brought together by a love of Lindy Hop, the swing dance that flourished in the 1930s. We’re a small team of volunteers who organise events throughout the year, bringing venues, bands and dancers together to share good music, good company and the joy of dancing.",Swing Dance Kobeは、1930年代に広まったスウィングダンス「リンディホップ」への情熱でつながる、誰もが歓迎されるコミュニティです。少人数のボランティアチームで年間を通じてイベントを企画し、会場・バンド・ダンサーをつないでいます。いい音楽と仲間、そして踊る喜びを一緒に楽しみましょう。
+about.questions,Any questions? Just ask us.,ご質問はお気軽にどうぞ。
+about.team,The core organisers of Swing Dance Kobe,Swing Dance Kobeの中心メンバー
+about.natsukiRole,Venues & bands,会場・バンドとの連携
+about.natsuki,"Natsuki brings people together. She connects venues with bands and helps create the partnerships that make our events possible.",Natsukiは人と人をつなぐ存在です。会場とバンドを結び、イベントの実現を支える協力関係を築いています。
+about.lucyRole,Lessons & workshops,レッスン・ワークショップ
+about.lucy,"Lucy (Japan) looks after our dance lessons. She teaches alongside Roger in workshops and also leads her own lessons at events, sharing the fun of swing dancing with our community.",Lucy（日本）はダンスレッスンを担当しています。ワークショップではRogerと一緒に教えるほか、イベントでは自身のレッスンも行い、スウィングダンスの楽しさをみんなに伝えています。
+about.rogerRole,Workshops · events · DJ · website,ワークショップ・イベント・DJ・ウェブサイト
+about.roger,"Roger is Swiss and based in Australia, but Kobe is a regular stop on his travels. He has been dancing Lindy Hop since 1995 and shares that experience through workshops here. He also helps organise events, plays swing tunes as a DJ, and built and maintains this website.",スイス出身でオーストラリア在住のRogerは、神戸をたびたび訪れています。1995年からリンディホップを踊り続け、その経験を神戸でのワークショップを通じて伝えています。イベントの運営を手伝い、DJとしてスウィング音楽を届けるほか、このウェブサイトの制作・管理も担当しています。
+links.rootsTitle,Discover Lindy Hop,リンディホップを知る
+links.japanTitle,Swing around Japan,日本のスウィングコミュニティ
+links.moviesTitle,Recommended movies to watch,おすすめの映画
+links.website,Website,ウェブサイト
+links.filmDetails,Film details on IMDb,IMDbで作品情報を見る
+
+links.community,Community,コミュニティ
+links.city,City,都市
+links.destinations,Links,リンク
+links.year,Year,公開年
+links.film,Film,作品名
+links.savoyPhoto,Crowd outside the Savoy Ballroom,サヴォイ・ボールルームの前に集まる人々
+links.frankiePhoto,Frankie Manning performing an aerial dance move with a partner,パートナーとエアリアルを披露するフランキー・マニング
+portfolio.videoIntro,The latest videos from our parties and lessons and the wider Kobe swing community. Videos and playlist sections are ordered newest first.,パーティーやレッスン、神戸のスウィングコミュニティの最新動画をご紹介します。動画もプレイリストのセクションも、新しい順に並んでいます。
+portfolio.allVideos,View Full Playlist,プレイリストをすべて見る
+portfolio.stale,Showing saved videos. Visit the full playlists for the latest updates.,保存済みの動画を表示しています。最新情報は各プレイリストをご覧ください。
+portfolio.unavailable,Videos are temporarily unavailable. Visit our YouTube channel using the icon above.,現在、動画を読み込めません。上のYouTubeアイコンからチャンネルをご覧ください。
+portfolio.embedUnavailable,This video cannot play here. Try watching it on YouTube.,この動画はここでは再生できません。YouTubeでご覧ください。
