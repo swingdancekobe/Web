@@ -33,12 +33,12 @@ portfolio.intro,Our dance-floor scrapbook — shared rhythms and memories from K
 portfolio.emptyTitle,An album waiting for its first dance.,最初の思い出を待つアルバム。
 portfolio.empty,Photos and stories from our gatherings will appear here.,集まりの写真やエピソードを、これからこちらに掲載していきます。
 learn.eyebrow,EVERY DANCER STARTS SOMEWHERE,誰もが最初は初心者
-learn.title,Your first eight counts.,はじめの8カウント。
-learn.intro,Curious about swing? Start with a beginner-friendly class and discover how good moving to jazz can feel.,スウィングダンスが気になったら、初心者向けのクラスから。ジャズに合わせて体を動かす楽しさを見つけましょう。
-learn.firstTitle,Look for a beginner class,初心者クラスを探そう
-learn.first,An introductory Lindy Hop or solo jazz class is a lovely way to begin. Check the teacher’s class description for experience requirements.,リンディホップやソロジャズの入門クラスがおすすめです。必要な経験については、各クラスの案内をご確認ください。
-learn.secondTitle,Bring your curiosity,好奇心を持って
-learn.second,Wear comfortable clothes and shoes you can move in. Ask the organiser about indoor shoes and whether you need to bring a partner.,動きやすい服装と靴でどうぞ。室内履きやパートナーの同伴が必要かは、主催者にご確認ください。
+learn.title,"Come For The Music. Stay For The Dancing.","音楽に誘われて、ダンスを楽しもう。"
+learn.intro,"There’s more than one way to find your feet in Kobe’s swing community. Join us to learn, share a few steps and enjoy the music together.","神戸のスウィング仲間と、音楽に合わせて一歩を踏み出してみませんか。一緒に学び、ステップを教え合いながら、踊る楽しさを見つけましょう。"
+learn.firstTitle,"Special Workshops","特別ワークショップ"
+learn.first,"We don’t currently offer regular lessons in Kobe, but we host occasional workshops when visiting teachers are in town. It’s a lovely chance to discover something new and grow your dancing.","現在、神戸で定期レッスンは行っていませんが、ゲスト講師が来られる際には不定期でワークショップを開催しています。新しい発見や、ダンスの楽しみを広げる機会にぜひご参加ください。"
+learn.secondTitle,"Fridays In The Park","金曜日は公園で"
+learn.second,"We usually meet in the park on Friday evenings to learn from one another and dance together. Come along, meet the community and share a little swing under the stars.","普段は金曜日の夜に公園に集まり、お互いに教え合いながら一緒に踊っています。仲間と出会い、星空の下でスウィングを楽しみましょう。"
 learn.thirdTitle,Listen for the swing,スウィングを聴こう
 learn.third,Try listening to Count Basie or Ella Fitzgerald. Notice the pulse and let your feet find it.,カウント・ベイシーやエラ・フィッツジェラルドを聴いてみましょう。音楽のビートを感じて、足でリズムを取ってみてください。
 learn.directoryTitle,Local classes,近くのクラス
@@ -72,7 +72,7 @@ welcome.videoSocial,My favorite social video,お気に入りのソーシャル�
 welcome.watchYouTube,Watch on YouTube,YouTubeで見る
 
 common.emailLabel,Email Swing Dance Kobe,Swing Dance Kobeにメールする
-festival.title,Kobe Jazz Street Festival 2026,神戸ジャズストリート2026
+festival.title,"Kobe Jazz Street 2026","神戸ジャズストリート2026"
 festival.dates,10 & 11 October 2026,2026年10月10日・11日
 festival.eyebrow,A BIG YEAR FOR SWING DANCE KOBE,Swing Dance Kobeにとって大切な年
 festival.call,Help us fill the dance floor.,一緒にダンスフロアを盛り上げよう。
@@ -101,8 +101,8 @@ festival.oct3,Saturday · 3 October,10月3日（土）
 festival.oct9,Friday · 9 October,10月9日（金）
 festival.oct10,Saturday · 10 October,10月10日（土）
 festival.oct11,Sunday · 11 October,10月11日（日）
-festival.warmup,Kobe Jazz Promotion Event: Live band & dance lesson,神戸ジャズ・プロモーションイベント：ライブ演奏＆ダンスレッスン
-festival.warmupText,Free event! Warm up for the jazz festival and help spread the word.,無料イベント！ジャズフェスティバルに向けて、一緒に踊って盛り上げましょう。
+festival.warmup,"Autumn Swing Jazz Night","Autumn Swing Jazz Night"
+festival.warmupText,"Live music with Metro Band and free dance lessons with Roger (Switzerland) & Lucy (Japan).","Metro Bandの生演奏と、Roger（スイス）＆Lucy（日本）による無料ダンスレッスン。"
 festival.park,Lindy in the Park,Lindy in the Park
 festival.parkText,Parade dance practice and social dancing under the stars.,パレードのダンス練習と、星空の下でのソーシャルダンス。
 festival.parade,Traditional Street Parade,恒例のストリートパレード
@@ -116,14 +116,14 @@ festival.liveText,Live jazz and free mini dance lessons with Roger (Switzerland)
 festival.bands,Band timetables,バンド・タイムテーブル
 festival.performer,Band / musicians,バンド・出演者
 festival.sat1,Sayaka & fellow musician,Sayaka & fellow musician
-festival.soul,Soul I Jazz Band,Soul I Jazz Band
-festival.sat3,Eiji Hanaoka Family & Takeshi Gotoh,Eiji Hanaoka Family & Takeshi Gotoh
+festival.soul,"Soul i Jazz  Band","Soul i Jazz  Band"
+festival.sat3,"Eiji Hanaoka Family & Kenji Goshima","Eiji Hanaoka Family & Kenji Goshima"
 festival.clap,Clap Stomp Swingin’,Clap Stomp Swingin’
 festival.sat5,"Yuko Mita, Takeshi Goto, and Ken Kawase trio","Yuko Mita, Takeshi Goto, and Ken Kawase trio"
-festival.sun1,"Yuko Mita, Sei Nakayama, Takeshi Goto, and Ken Kawase Trio","Yuko Mita, Sei Nakayama, Takeshi Goto, and Ken Kawase Trio"
-festival.sun5,Hanaoka Eiji Septet,Hanaoka Eiji Septet
+festival.sun1,"Yuko Mita, Kenji Goshima, Sei Nakayama, Takeshi Goto & Ken Kawase Trio","Yuko Mita, Kenji Goshima, Sei Nakayama, Takeshi Goto & Ken Kawase Trio"
+festival.sun5,"Eiji Hanaoka Septet","Eiji Hanaoka Septet"
 festival.updates,Stay in the loop,最新情報をチェック
-festival.updatesText,For the latest event updates follow Swing Dance Kobe on Facebook and Instagram.,イベントの最新情報はSwing Dance KobeのFacebookとInstagramでご確認ください。
+festival.updatesText,"Check the latest updates on social media.","最新情報はソーシャルメディアでチェック。"
 festival.oct2,Friday · 2 October,10月2日（金）
 festival.buy,Buy tickets here,チケットの購入はこちら
 festival.parkSocialText,Social dancing under the stars.,星空の下でのソーシャルダンス。
@@ -159,3 +159,8 @@ portfolio.unavailable,Videos are temporarily unavailable. Visit our YouTube chan
 portfolio.embedUnavailable,This video cannot play here. Try watching it on YouTube.,この動画はここでは再生できません。YouTubeでご覧ください。
 
 portfolio.featured,Latest From Our Channel,チャンネルの最新動画
+
+festival.satOpening,"Sayaka, Kenji Goshima & fellow musician","Sayaka, Kenji Goshima & fellow musician"
+
+learn.stayConnected,"Let’s Get You Dancing","一緒に踊りましょう"
+learn.contactNote,"Check Facebook and Instagram for upcoming events and the latest Friday gathering details, or email us to ask about the next workshop or lesson.","今後のイベントや金曜日の集まりの最新情報はFacebookとInstagramでご確認ください。次回のワークショップやレッスンについては、メールでもお気軽にお問い合わせください。"
