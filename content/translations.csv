@@ -119,8 +119,8 @@ festival.sat1,Sayaka & fellow musician,Sayaka & fellow musician
 festival.soul,"Soul i Jazz  Band","Soul i Jazz  Band"
 festival.sat3,"Eiji Hanaoka Family & Kenji Goshima","Eiji Hanaoka Family & Kenji Goshima"
 festival.clap,Clap Stomp Swingin’,Clap Stomp Swingin’
-festival.sat5,"Yuko Mita, Takeshi Goto, and Ken Kawase trio","Yuko Mita, Takeshi Goto, and Ken Kawase trio"
-festival.sun1,"Yuko Mita, Kenji Goshima, Sei Nakayama, Takeshi Goto & Ken Kawase Trio","Yuko Mita, Kenji Goshima, Sei Nakayama, Takeshi Goto & Ken Kawase Trio"
+festival.sat5,"Yuko Mita, Kenji Goshima, and Ken Kawase trio","Yuko Mita, Kenji Goshima, and Ken Kawase trio"
+festival.sun1,"Yuko Mita, Kenji Goshima, Sei Nakayama & Ken Kawase Trio","Yuko Mita, Kenji Goshima, Sei Nakayama & Ken Kawase Trio"
 festival.sun5,"Eiji Hanaoka Septet","Eiji Hanaoka Septet"
 festival.updates,Stay in the loop,最新情報をチェック
 festival.updatesText,"Check the latest updates on social media.","最新情報はソーシャルメディアでチェック。"
@@ -130,7 +130,7 @@ festival.parkSocialText,Social dancing under the stars.,星空の下でのソー
 
 about.eyebrow,THE PEOPLE BEHIND THE DANCE,ダンスを支える仲間たち
 about.title,About Us,私たちについて
-about.intro,"Swing Dance Kobe is an inclusive community brought together by a love of Lindy Hop, the swing dance that flourished in the 1930s. We’re a small team of volunteers who organise events throughout the year, bringing venues, bands and dancers together to share good music, good company and the joy of dancing.",Swing Dance Kobeは、1930年代に広まったスウィングダンス「リンディホップ」への情熱でつながる、誰もが歓迎されるコミュニティです。少人数のボランティアチームで年間を通じてイベントを企画し、会場・バンド・ダンサーをつないでいます。いい音楽と仲間、そして踊る喜びを一緒に楽しみましょう。
+about.intro,"Swing Dance Kobe grew from a simple invitation and a shared love of music and dancing. Today, it is a small community made possible by the people who show up, lend a hand and make one another feel welcome.","Swing Dance Kobeは、ひとつのお誘いと、音楽やダンスを好きな気持ちから生まれました。集まってくださる方、手を貸してくださる方、温かく迎えてくださる方。一人ひとりに支えられている、小さなコミュニティです。"
 about.questions,Any questions? Just ask us.,ご質問はお気軽にどうぞ。
 about.team,The core organisers of Swing Dance Kobe,Swing Dance Kobeの中心メンバー
 about.natsukiRole,Venues & bands,会場・バンドとの連携
@@ -160,10 +160,29 @@ portfolio.embedUnavailable,This video cannot play here. Try watching it on YouTu
 
 portfolio.featured,Latest From Our Channel,チャンネルの最新動画
 
-festival.satOpening,"Sayaka, Kenji Goshima & fellow musician","Sayaka, Kenji Goshima & fellow musician"
+festival.satOpening,"Sayaka & fellow musician","Sayaka & fellow musician"
 
 learn.stayConnected,"Let’s Get You Dancing","一緒に踊りましょう"
 learn.contactNote,"Check Facebook and Instagram for upcoming events and the latest Friday gathering details, or email us to ask about the next workshop or lesson.","今後のイベントや金曜日の集まりの最新情報はFacebookとInstagramでご確認ください。次回のワークショップやレッスンについては、メールでもお気軽にお問い合わせください。"
 
 festival.scheduleNote,"These are the bands playing for us dancers at our dedicated swing dance venue. For the full festival programme, visit the organisers’ timetable.","ここでは、私たちの専用スウィングダンス会場でダンサーのために演奏するバンドをご紹介しています。フェスティバル全体のスケジュールは、主催者のタイムテーブルをご覧ください。"
 festival.fullSchedule,View The Full Festival Schedule,フェスティバル全体のタイムテーブルを見る
+
+about.beginTitle,"How It All Began","はじまりのこと"
+about.begin,"In 2017, Roger Schmidlin, a Swiss Lindy Hopper living in Australia, posted a simple question on Facebook: where could he dance Lindy Hop while exploring Japan and its culture? Natsuki replied with an invitation to Kobe. Roger took her up on it, and soon found friendship with Natsuki, Lucy, Ai and Kenji. Together, they began organising social dances and lessons. Those first connections grew into the community we now call Swing Dance Kobe.","2017年、オーストラリア在住のスイス人リンディホッパー、Roger SchmidlinがFacebookに投稿しました。「日本の文化に触れながら旅をしたい。リンディホップを踊るなら、どこへ行けばいいだろう？」その問いにNatsukiが「神戸へどうぞ」と返信。神戸を訪れたRogerは、Natsuki、Lucy、Ai、Kenjiと親しくなり、みんなでソーシャルダンスやレッスンを開くようになりました。その出会いが、今のSwing Dance Kobeへとつながっています。"
+about.shareTitle,"Everyone Brings Something","それぞれの力を持ち寄って"
+about.shareRoger,"Roger shares a love of Lindy Hop shaped by many years of dancing, including opportunities to meet Frankie Manning and other original dancers. He helps with workshops, aerials and community choreography, as well as the website and the practical technology that supports our events. He is grateful to share what he has learned and to keep learning alongside the community.","Rogerは長年リンディホップを踊り、Frankie Manningをはじめ、このダンスの初期を支えたダンサーたちに出会う機会にも恵まれました。その経験をワークショップやエアリアル、みんなで踊るルーティンの振付に生かし、ウェブサイトやイベントを支える技術面も担当しています。学んできたことを分かち合い、仲間とともに学び続けられることを大切にしています。"
+about.shareLucy,"Lucy teaches most of these workshops alongside Roger, bringing her skill, warmth and infectious enthusiasm for Lindy Hop. When Roger is away, she also leads occasional workshops and introductory lessons, helping more people discover the joy of dancing.","LucyはRogerと多くのワークショップでペアを組み、確かな技術と温かさ、リンディホップへの明るい情熱を伝えています。Rogerが神戸にいない時も、ときどきワークショップや入門レッスンを開き、踊る楽しさとの出会いをつくってくれています。"
+about.shareNatsuki,"Natsuki quietly brings the pieces together. Her relationships with venues and bands help make our gatherings possible, and her care behind the scenes keeps things running. At events, she is often the friendly face welcoming you at the door.","Natsukiは、さまざまな人や場所をつないでくれる存在です。会場やバンドとのつながり、そして舞台裏での細やかな心配りが、集まりを支えています。イベントでは、入口で皆さんを笑顔で迎えていることも多いので、ぜひ声をかけてください。"
+about.thanksTitle,"Built Together, With Thanks","みんなで育てるコミュニティ"
+about.venues,"Sunflower in Motomachi and IZNT in Sannomiya were among our first venues. We remain grateful for their trust and for giving our little community a place to gather, dance and throw a good party.","初期の会場としてお世話になったのが、元町のSunflowerと三宮のIZNTでした。私たちを信頼し、集まって踊り、楽しい時間を過ごす場所を提供してくださったことに、今も感謝しています。"
+about.community,"Our organising team is small, but this community reaches far beyond it. Every volunteer, musician, venue host and person who joins us helps make these events what they are. Thank you for your time, your encouragement and your willingness to be part of it.","運営チームは小さいですが、このコミュニティはそのメンバーだけのものではありません。ボランティアの皆さん、ミュージシャン、会場の方々、そして参加してくださる一人ひとりが、イベントをつくっています。時間を分けてくださること、応援してくださること、一緒に楽しんでくださることに、心から感謝しています。"
+about.closing,"Music and dance mean so much more when we share them. Thank you for being part of Swing Dance Kobe.","音楽もダンスも、誰かと分かち合うことで、もっと大切なものになります。Swing Dance Kobeの仲間でいてくださって、ありがとうございます。"
+about.photoAlt,"The Swing Dance Kobe community gathered for a group photograph at Sunflower.","Sunflowerに集まったSwing Dance Kobeの仲間たちの集合写真。"
+about.photoCaption,"Good company at Sunflower — part of our story together.","Sunflowerで仲間とともに。私たちが一緒につくってきた思い出のひとつ。"
+about.videoNote,"Take a look back at the parties, social gatherings, festivals and workshops we have shared.","パーティーや交流のひととき、フェスティバル、ワークショップ。みんなで過ごした時間を、動画で振り返ってみませんか。"
+about.videoLink,"Explore Our Videos","動画で思い出を振り返る"
+
+links.gameTitle,"Game On, Play The Lindy Hop","ゲームで楽しむリンディホップ"
+links.gameText,"Ready to put your rhythm to the test? Step into Google’s playful tribute to swing dancing and the Savoy Ballroom. Follow the music and see how well you can keep the beat — no dance shoes needed!","リズム感を試してみませんか？スウィングダンスとサヴォイ・ボールルームをたたえるGoogleの楽しいゲームへ。音楽に合わせて、どこまでビートに乗れるか挑戦しましょう。ダンスシューズは必要ありません！"
+links.gameButton,Let’s Play!,さあ、遊んでみよう！
