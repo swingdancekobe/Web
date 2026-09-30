@@ -9,7 +9,7 @@
 .topline{background:var(--harbour)}
 header{display:flex;flex-wrap:wrap;gap:0;margin:0 5%;padding:0 0 18px;border-bottom:2px solid var(--harbour)}
 .masthead{flex-basis:100%;position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:265px;margin:22px 0 20px;padding:28px 16px;background:var(--harbour);color:var(--paper);border:5px double var(--paper);outline:1px solid var(--harbour);text-align:center}
-.masthead::before{content:"";position:absolute;inset:0;z-index:-2;background-image:url('assets/kobe-harbour.png');background-size:100% 100%;background-position:center}
+.masthead::before{content:"";position:absolute;inset:0;z-index:-2;background-image:url('assets/kobe-harbour.webp');background-size:100% 100%;background-position:center}
 .masthead::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(17,42,50,.2),rgba(17,42,50,.65) 35%,rgba(17,42,50,.65) 65%,rgba(17,42,50,.2))}
 .brand{font-family:'Barlow Condensed','Arial Narrow',Impact,sans-serif;font-weight:800;font-size:clamp(2.15rem,7.5vw,7rem);letter-spacing:.015em;line-height:1.12;text-transform:uppercase;white-space:nowrap;color:#fff3d7;text-shadow:2px 3px 0 #193d47;text-decoration:none}
 .brand:hover{color:#fff}.harbour-kicker{font-size:.875rem;font-weight:700;letter-spacing:.25em;margin:0 0 10px;line-height:1.5}.harbour-signature{font-size:.875rem;letter-spacing:.16em;margin:13px 0 0;line-height:1.6}nav{order:0;flex-basis:auto;justify-content:flex-start;padding:7px 20px 7px 0}.language{margin-left:auto;border-color:var(--harbour)}footer{background:var(--harbour)}.hero{min-height:540px;padding-top:46px;padding-bottom:46px}
@@ -33,7 +33,7 @@ header{display:flex;flex-wrap:wrap;gap:0;margin:0 5%;padding:0 0 18px;border-bot
 /* After-hours jazz club: amber light, charcoal and dancing silhouettes. */
 :root{--paper:#171b1e;--ink:#f4e8d2;--rust:#e5ab6e;--line:#66533e;--muted:#c9baa6;--harbour:#111a20}
 body{position:relative;isolation:isolate;background:#171b1e;color:var(--ink);background-image:radial-gradient(ellipse at 9% 48%,rgba(177,99,42,.24),transparent 52%),radial-gradient(ellipse at 92% 70%,rgba(55,93,109,.25),transparent 50%)}
-body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background-image:linear-gradient(90deg,#171b1e 3%,rgba(23,27,30,.4) 65%,rgba(23,27,30,.2)),url('assets/swing-dance.png');background-color:#4c483d;background-blend-mode:normal,multiply;background-size:cover;background-position:center;opacity:.28}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;background-image:linear-gradient(90deg,#171b1e 3%,rgba(23,27,30,.4) 65%,rgba(23,27,30,.2)),url('assets/swing-dance.webp');background-color:#4c483d;background-blend-mode:normal,multiply;background-size:cover;background-position:center;opacity:.28}
 body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,rgba(9,13,16,.12),transparent 35%,rgba(9,13,16,.6))}
 .topline{color:#d8bd94;background:#0e1519;border-bottom:1px solid #493d30}
 header{border-bottom-color:#8b6c46}.masthead{color:#f4e8d2;background:#193d47;border-color:#ad895a;outline-color:#493d30}.masthead::after{background:linear-gradient(90deg,rgba(10,21,27,.15),rgba(10,21,27,.5) 40%,rgba(10,21,27,.5) 65%,rgba(10,21,27,.15))}

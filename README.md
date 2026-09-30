@@ -4,7 +4,7 @@ A locally built, static, bilingual website inspired by 1930s–40s swing posters
 
 ## Preview
 
-From this project folder, run `npm run build`, then `npm run dev`. Open http://127.0.0.1:4173. Node.js is the only requirement; no package installation is necessary. You can also open `dist/index.html` directly. Google Fonts are optional; system fonts are used offline.
+From this project folder, run `npm ci`, then `npm run build` and `npm run dev`. Open http://127.0.0.1:4173. The build uses Sharp to generate optimized WebP images and the social preview from the source artwork and banner translations. You can also open `dist/index.html` directly after building. Google Fonts are optional; system fonts are used offline.
 
 ## Edit English and Japanese
 
@@ -44,7 +44,7 @@ The school list appears on both Where to Learn and Swing Connections. Empty coll
 - `scripts/build.mjs`: creates the twelve English/Japanese pages from content.
 - `scripts/serve.mjs`: loopback-only local preview server.
 - `dist/styles.css`: shared responsive design; this is an authored source file, not disposable build output.
-- `dist/assets/`: website artwork.
+- `dist/assets/`: source artwork and build-generated optimized WebP images.
 - `dist/en/` and `dist/ja/`: generated pages; edit content rather than these files.
 
 All navigation is ordinary HTML and works without JavaScript. The language switch preserves the current page. The `dist` folder is ready for static hosting. This project has not been published. No contact form backend is configured; contact uses email once an address is supplied.
