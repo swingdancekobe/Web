@@ -1,5 +1,12 @@
 {
   "name": "swing-dance-kobe",
   "private": true,
-  "scripts": { "build": "node scripts/build.mjs", "dev": "node --use-system-ca scripts/serve.mjs", "sync:playlists": "node --use-system-ca scripts/sync-playlists.mjs" }
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node --use-system-ca scripts/serve.mjs",
+    "sync:playlists": "node --use-system-ca scripts/sync-playlists.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
 }
