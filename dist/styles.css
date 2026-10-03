@@ -58,7 +58,7 @@ nav a{color:#eadbc5}nav a:hover,nav a[aria-current]{color:#efbd7e}.language{colo
 .events-flash>span{position:relative;z-index:1}
 .events-flash:hover{transform:rotate(-1deg) scale(1.04);filter:drop-shadow(0 7px 7px rgba(0,0,0,.45))}
 .events-flash:focus-visible{filter:drop-shadow(0 0 3px #fff3d7) drop-shadow(0 0 1px #fff3d7)}
-.events-flash-label{font-family:Georgia,'Noto Sans JP',serif;font-size:1rem;font-weight:700;line-height:1.2;white-space:nowrap;transform:translateX(7px)}
+.events-flash-label{font-family:Georgia,'Noto Sans JP',serif;font-size:1rem;font-weight:700;line-height:1.2;white-space:nowrap;transform:translateX(3px)}
 .events-flash-arrow{position:absolute;top:50%;right:25px;font-size:1.2rem;line-height:1;transform:translateY(-50%)}
 @media(max-width:700px){.welcome-heading{gap:12px 18px}.events-flash{min-width:148px;min-height:64px;padding:12px 24px}}
 
