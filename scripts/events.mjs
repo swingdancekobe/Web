@@ -3,7 +3,6 @@ export function renderEvents(t) {
   const venue = (name, url) => `<span>${t(name)}</span>${external(url, t('festival.map'), 'map-link')}`;
   const nosta = 'https://maps.app.goo.gl/P7tGnP4SrbfstaaV9';
   const rows = [
-    ['oct3','17:30–20:00','warmup','warmupText','platz','https://maps.app.goo.gl/Xr2ddo63jcq5DsrH8'],
     ['oct9','19:30–21:30','park','parkText','garden','https://maps.app.goo.gl/T9n8kLWJGpu2nF2L8'],
     ['oct10','11:00','parade','paradeText','station','https://maps.app.goo.gl/DatdjRhUk5LKqdRU9'],
     ['oct10','12:00–16:40','live','liveText','nosta',nosta],
