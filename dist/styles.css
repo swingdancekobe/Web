@@ -98,6 +98,7 @@ header nav{min-width:0;flex:1 1 500px}
 .festival-hero{padding:55px 0 40px;border-bottom:1px solid #8b6c46}
 .festival-hero h1{font-size:clamp(2.8rem,5.5vw,5.4rem);max-width:950px;margin-bottom:22px}
 .festival-date{font-size:clamp(1.35rem,2.7vw,2rem);font-weight:700;color:#efbd7e;margin:0 0 18px;font-variant-numeric:tabular-nums}
+.festival-ticket-note{margin:16px 0 0;color:#c9baa6}
 .festival-invitation{display:grid;grid-template-columns:1.5fr 1fr;gap:45px;padding:35px 0}
 .festival-invitation h2{margin-top:0}.festival-invitation p{margin-bottom:0}.lesson-note{border-left:3px solid #d6a46c;background:rgba(13,19,23,.72);padding:22px 25px}.lesson-note h3{margin:0;color:#efbd7e}
 .festival-section{padding:32px 0 40px;border-top:1px solid #8b6c46}.festival-section>h2{margin-top:0;font-size:2.1rem}

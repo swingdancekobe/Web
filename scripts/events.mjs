@@ -11,7 +11,7 @@ export function renderEvents(t) {
   ];
   const timetable = (day, acts) => `<article class="band-day"><h3>${t('festival.' + day)}</h3><p>${venue('festival.nosta', nosta)}</p><table class="festival-table"><caption class="sr-only">${t('festival.' + day)} — ${t('festival.bands')}</caption><thead><tr><th scope="col">${t('festival.time')}</th><th scope="col">${t('festival.performer')}</th></tr></thead><tbody>${acts.map((act,i) => `<tr><th scope="row" class="time-cell">${12+i}:00–${12+i}:40</th><td>${t('festival.'+act)}</td></tr>`).join('')}</tbody></table></article>`;
   return `<div class="festival-page">
-    <section class="festival-hero"><p class="eyebrow">${t('festival.eyebrow')}</p><h1>${t('festival.title')}</h1><p class="festival-date">${t('festival.dates')}</p><div class="festival-actions">${external('https://www.kobejazzstreet.gr.jp/',t('festival.official'),'button')}${external('https://www.kobejazzstreet.gr.jp/ticket/',t('festival.buy'),'button')}<a class="button" href="mailto:info@swingdancekobe.com">${t('festival.dancerTickets')}</a></div></section>
+    <section class="festival-hero"><p class="eyebrow">${t('festival.eyebrow')}</p><h1>${t('festival.title')}</h1><p class="festival-date">${t('festival.dates')}</p><div class="festival-actions">${external('https://www.kobejazzstreet.gr.jp/',t('festival.official'),'button')}${external('https://www.kobejazzstreet.gr.jp/ticket/',t('festival.buy'),'button')}</div><p class="festival-ticket-note">${t('festival.ticketNote')}</p></section>
     <section class="festival-invitation"><div><h2>${t('festival.call')}</h2><p>${t('festival.intro')}</p></div><aside class="lesson-note"><h3>${t('festival.lessonsTitle')}</h3><p>${t('festival.lessons')}</p></aside></section>
 
 
