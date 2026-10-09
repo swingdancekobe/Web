@@ -6,7 +6,10 @@ export function renderEvents(t) {
     ['oct10','11:00','parade','paradeText','station','https://maps.app.goo.gl/DatdjRhUk5LKqdRU9'],
     ['oct10','12:00–16:40','live','liveText','nosta',nosta],
     ['oct11','11:00','parade','paradeText','station','https://maps.app.goo.gl/DatdjRhUk5LKqdRU9'],
-    ['oct11','12:00–16:40','live','liveText','nosta',nosta]
+    ['oct11','12:00–16:40','live','liveText','nosta',nosta],
+    ['oct16','18:00–19:30','picnic','picnicText','garden','https://maps.app.goo.gl/T9n8kLWJGpu2nF2L8'],
+    ['oct16','19:30–21:30','park','parkSocialText','garden','https://maps.app.goo.gl/T9n8kLWJGpu2nF2L8'],
+    ['oct30','19:30–21:30','park','parkSocialText','garden','https://maps.app.goo.gl/T9n8kLWJGpu2nF2L8']
   ];
   const timetable = (day, acts) => `<article class="band-day"><h3>${t('festival.' + day)}</h3><p>${venue('festival.nosta', nosta)}</p><table class="festival-table"><caption class="sr-only">${t('festival.' + day)} — ${t('festival.bands')}</caption><thead><tr><th scope="col">${t('festival.time')}</th><th scope="col">${t('festival.performer')}</th></tr></thead><tbody>${acts.map((act,i) => `<tr><th scope="row" class="time-cell">${12+i}:00–${12+i}:40</th><td>${t('festival.'+act)}</td></tr>`).join('')}</tbody></table></article>`;
   return `<div class="festival-page">
